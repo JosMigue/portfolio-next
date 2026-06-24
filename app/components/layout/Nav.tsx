@@ -19,14 +19,14 @@ const Page = () => {
                             {link}
                         </Link>
                     ))}
-                        <Link
+     {/*                    <Link Not need anymore, I will remove it from the code
                             key="resume"
                             href="/resume.pdf"
                             className="text-sm border px-4 py-2 rounded-lg border-lime-400/50 text-lime-400 transition-all"
                             download
                         >
                             Download Resume
-                        </Link>
+                        </Link> */}
                 </div>
             </div>
         </nav>
