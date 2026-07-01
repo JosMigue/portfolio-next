@@ -44,7 +44,7 @@ const Page = () => {
           Object.keys(stack).map((k) =>
             <div key={k}>
               <p className="text-xs tracking-widest uppercase text-zinc-600">{k}</p>
-              <div className={`grid grid-cols-4 gap-2 border border-zinc-800 rounded-xl overflow-hidden`}>
+              <div className={`grid grid-cols-2 md:grid-cols-4 gap-2 border border-zinc-800 rounded-xl overflow-hidden`}>
                 {stack[k as Section].map((s: any) => (
                   <div key={s.name} className="px-4 py-5 flex flex-col items-center gap-2 hover:bg-zinc-800/80 transition-colors group">
                     <span><Image src={s.icon} alt={s.name} width={s.width ? s.width : 25} height={s.height ? s.height : 25} /></span>
