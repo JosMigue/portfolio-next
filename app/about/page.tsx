@@ -18,7 +18,7 @@ const Page = () => {
                         I'm a frontend developer who cares deeply about the craft — from pixel-perfect UIs to clean, maintainable code. I love turning complex problems into simple, elegant interfaces.
                     </p>
                     <p className="text-zinc-600 text-sm leading-relaxed">
-                        When I'm not coding, I'm exploring new tech, contributing to open source, or obsessing over UI details nobody else notices.
+                        When I'm not coding, I'm exploring new tech, contributing to open source, or obsessing over UI details.
                     </p>
                 </div>
 

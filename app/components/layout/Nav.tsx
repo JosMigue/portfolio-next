@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 const Page = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const navLinks = ["about", "projects", "stack", "contact"];
+    const navLinks = ["about", "projects", "stack", 'servicenow', "contact"];
     useEffect(() => {
         const handleEsc = (e: KeyboardEvent) => {
             if (e.key === "Escape") setIsOpen(false);

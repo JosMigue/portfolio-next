@@ -39,7 +39,6 @@ const Page = () => {
           <span className="text-lime-400 italic">Stack</span><span className="text-zinc-700">.</span>
         </h1>
         <p className="text-slate-300 mb-12">Here's a list of technologies I've been working with recently.</p>
-
         {
           Object.keys(stack).map((k) =>
             <div key={k}>
@@ -57,15 +56,6 @@ const Page = () => {
             </div>
           )
         }
-        <div className="flex flex-wrap mt-12">
-          <Link
-            href='/servicenow'
-            className="text-sm bg-lime-400 text-zinc-950 font-semibold px-6 py-3 rounded-md hover:bg-lime-300 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-lime-400/20"
-          >
-            Looking for ServiceNow Skills? →
-          </Link>
-
-        </div>
       </div>
     </section>
   )

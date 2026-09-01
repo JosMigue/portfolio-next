@@ -23,7 +23,7 @@ const ServiceNowPage = () => {
     {
       id: 3,
       name: 'Portal',
-      description: 'Service Portal - Self-service platform for employees to request services and track requests.',
+      description: 'Service Portal - Employee Center - Custom Portal - Custom Apps - Taxonomies - Portal Content and Configuration.',
       icon: '🌐',
     },
     {
@@ -51,14 +51,21 @@ const ServiceNowPage = () => {
     }, {
       id: 8,
       name: 'Custom Integrations',
-      description: 'Custom integrations with third-party applications and services.',
+      description: 'Custom integrations with third-party applications and services. API Integrations, REST, MID Server, Data Integrations.',
       icon: '🔌',
     },
     {
       id: 9,
       name: 'AI integration',
-      description: 'AI Control Tower',
+      description: 'AI Control Tower (knowledge)',
       icon: '🤖',
+
+    },
+    {
+      id: 10,
+      name: 'Platform Configuration',
+      description: 'Scripting, Debuging, Business Rules, Client Scripts, UI Policies, UI Actions, Data Policies, Script Includes, Scheduled Jobs, Workflows, Flow Designer.',
+      icon: '⚙️',
 
     }
   ];
@@ -87,7 +94,7 @@ const ServiceNowPage = () => {
   const Modules = () => {
     return (
       <section id="about" className="py-24 border-t border-zinc-900">
-        <p className="text-xs tracking-widest uppercase text-zinc-600 mb-10"><Link href={'/stack'}>←Back</Link> <br />ServiceNow Stack</p>
+        <p className="text-xs tracking-widest uppercase text-zinc-600 mb-10">ServiceNow Stack</p>
         <div className="max-w-4xl mx-auto">
           <h1 className="font-serif text-4xl tracking-tight mb-6">ServiceNow <br />
             <span className="text-lime-400 italic">Modules</span><span className="text-zinc-700">.</span>

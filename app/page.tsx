@@ -12,7 +12,7 @@ export default function Portfolio() {
           Available for work
         </div>
 
-        <div className="mb-4 text-xs text-zinc-600 tracking-widest uppercase">Frontend Developer</div>
+        <div className="mb-4 text-xs text-zinc-600 tracking-widest uppercase">Frontend Developer | Tech Consultant </div>
 
         <h1 className="font-serif text-6xl md:text-8xl tracking-tight leading-none mb-6">
           Hey, I'm<br />
